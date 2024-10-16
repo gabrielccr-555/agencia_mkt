@@ -1,0 +1,170 @@
+/* CSS Geral */
+body {
+    margin: 0;
+    background-color: #83859a;
+}
+
+.limitador {
+    max-width: 1300px;
+    margin: 0px auto;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+/*Parte 1 - Apresentação do serviço*/
+.logo {
+    width: 150px;
+}
+
+.part-1 {
+    background-image: url(marketing_digital_vai.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+    background-color: white;
+    padding: 0px 50px 100px 50px;
+    border-radius: 0px 0px 40px 40px;
+    
+}
+
+.part-1-cell {
+    padding: 180px 0px 0px 0px;
+    max-width: 500px;
+    min-height: 55vh;
+}
+
+/*Parte 2 - Nossos serviços*/
+.part-2 {
+    margin: 30px 0px 0px 0px;
+    background-color: white;
+    padding: 50px 50px;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.part-2-cell-principal {
+    padding-bottom: 15px;
+}
+
+.part-2-cell-principal h2 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.icon-part-2 {
+    width: 55px;
+    padding-left: 5px;
+}
+
+.part-2-servicos {
+    padding: 20px;
+    min-height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.part-2-servicos h4 {
+    padding: 10px 0px;
+}
+
+.seo {
+    background-color: #ef722f;
+}
+.social {
+    background-color: #7c95d0;
+}
+.multi {
+    background-color: #e7b070;
+}
+
+.part-2-servicos a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+    transform-origin: left;
+    display: inline-block;
+}
+.part-2-servicos a:hover {
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+
+/*Parte 3 - Nossos serviços*/
+.part-3 {
+    background-color: white;
+    text-align: center;
+    min-height: 70vh;
+    margin: 0px 0px;
+    padding: 50px 50px;
+    border-radius: 0px 0px 40px 40px;
+}
+.part-3 h2 {
+    text-align: start;
+    padding: 0px 0px 40px 0px;
+}
+
+.imagem-mkt {
+    max-width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+}
+
+/*Parte 4 - Nossos benefícios*/
+.part-4 {
+    background-color: #e7b070b9;
+    margin-top: 30px;
+    padding: 50px 50px;
+    border-radius: 40px;
+}
+
+.part-4 img {
+    max-width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 40px
+}
+
+.part-4 h2 {
+    padding-bottom: 30px;
+}
+
+/*Parte 5 - Nossos benefícios*/
+.part-5 {
+    background-color: white;
+    margin-top: 30px;
+    padding: 50px 50px;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.part-5 h5 {
+    font-weight: bold;
+}
+
+.part-5-cell {
+    min-height: 100%;
+    padding-top: 15px;
+}
